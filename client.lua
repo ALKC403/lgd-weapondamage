@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
     while true do
     Wait(5)
     
-        SetPedSuffersCriticalHits(PlayerPedId(), Config.Headshots)
+        SetPedSuffersCriticalHits(PlayerPedId(-1), Config.Headshots)
     end
     
 end)
