@@ -1,5 +1,5 @@
 # lgd-weapondamage
-- Standalone weapon damage modifier and headshot disable for Fivem
+- Standalone weapon damage modifier and headshot disable for FIVEM
 - Works for QB-CORE, ESX, QBOX and any other framework
 
 # Installation
