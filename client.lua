@@ -1,3 +1,4 @@
+-- Weapon Damage modifier
 Citizen.CreateThread(function()
     for i, v in pairs(Config.Weapons) do
         SetWeaponDamageModifier(v.weapon_name, v.damage_multiplier)
@@ -9,7 +10,7 @@ Citizen.CreateThread(function()
     while true do
     Wait(5)
     
-        SetPedSuffersCriticalHits(PlayerPedId(), Config.Headshot)
+        SetPedSuffersCriticalHits(PlayerPedId(), Config.Headshots)
     end
     
 end)
