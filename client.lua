@@ -8,8 +8,8 @@ end)
 -- Disable headshots
 Citizen.CreateThread(function()
     while true do
-        SetPedSuffersCriticalHits(PlayerPedId(-1), Config.Headshots)
         Wait(5)
+        SetPedSuffersCriticalHits(PlayerPedId(-1), Config.Headshots)
     end
     
 end)
